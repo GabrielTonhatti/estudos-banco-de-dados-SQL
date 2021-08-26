@@ -12,7 +12,8 @@ CREATE TABLE aluno
     media_geral       DECIMAL(4, 2),
     data_ingresso     DATE         NOT NULL,
     data_conclusao    DATE,
-    sexo              ENUM('masculino', 'feminino')
+    sexo              ENUM ('masculino', 'feminino'),
+    periodo            ENUM('diurno', 'noturno') NOT NULL
 );
 
 INSERT INTO aluno
