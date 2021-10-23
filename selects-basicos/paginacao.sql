@@ -1,3 +1,12 @@
-SELECT
+SELECT id,
+       nome,
+       data_publicacao
+FROM aula
+LIMIT 15
+OFFSET 30;
 
-FROM
+SELECT id,
+       nome,
+       data_publicacao
+FROM aula
+LIMIT 15, 30;
