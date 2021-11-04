@@ -29,5 +29,12 @@
       <jdbc-url>jdbc:sqlserver://192.168.100.8:1433</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Heroku-SDS3" uuid="3177d607-b339-4598-83b7-41457a35ead7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-145-110-118.compute-1.amazonaws.com:5432/d9q4e5bbjstf81</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
